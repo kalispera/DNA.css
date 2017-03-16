@@ -1,0 +1,69 @@
+body{
+  font-family: var(--font-family);
+  background-color: var(--bg-color);
+  color: var(--copy-color);
+  line-height: var(--line-height);
+  font-weight: var(--font-weight);
+  font-size: var(--font-size);
+}
+
+body{
+  padding: var(--inner-y--L) var(--inner-x--L);
+  margin: var(--outer-y--L) var(--outer-x--L);
+}
+
+a{
+  color: var(--main-color);
+  text-decoration: var(--text-decoration);
+}
+
+button, input{
+  font-size: inherit;
+}
+
+button, input{
+  display: block;
+  cursor: pointer;
+  text-decoration: none;
+  font-weight: var(--font-weight);
+  box-sizing: border-box;
+  font-family: var(--font-family);
+  background: var(--main-color);
+  white-space: nowrap;
+  padding: 0 var(--inner-x);
+  margin-bottom: var(--outer-y);
+  font-size: var(--font-size--S);
+  height: var(--size--M);
+  border-radius: var(--border-radius);
+  color: var(--light);
+
+  transition: box-shadow var(--fast) ease-in-out;
+}
+
+h1, h2, h3, h4, h5 ,h6 {
+  font-weight: var(--font-weight--bold);
+  margin: var(--outer-y) 0;
+}
+
+p{
+  margin: 0 0 var(--outer-y) 0;
+}
+
+ul{
+  margin: var(--outer-y) 0;
+  padding-left: var(--outer-x--XL);
+}
+
+
+::selection{
+  color: var(--bg-color);
+  background: var(--main-color);
+}
+::-moz-selection {
+  color: var(--bg-color);
+  background: var(--main-color);
+}
+
+*:focus{
+  outline-color: var(--main-color);
+}

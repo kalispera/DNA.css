@@ -1,0 +1,139 @@
+.mybrand {
+  --base: .5ex;
+  --bg-color: black;
+  --copy-color: white;
+  --main-color: #50FFF9;
+
+  --font-family: Georgia;
+  --line-height: 1.8;
+}
+
+.mybrand h1, h2, h3, h4, h5 ,h6 {
+  font-family: Impact;
+}
+
+.mybrand .button{
+  --copy-color: var(--bg-color);
+}
+
+.coke{
+  /* Brand Dna */
+  --coke-red: #F11600;
+  --coke-white: white;
+  --coke-font: Gotham, sans-serif;
+
+  /* Dna application */
+  --font-family: var(--coke-font);
+  --bg-color: var(--coke-red);
+  --copy-color: var(--coke-white);
+  --main-color: var(--coke-white);
+}
+
+.coke .button{
+  --copy-color: var(--main-color);
+}
+
+
+.netflix{
+  /* Brand Dna */
+
+  --netflix-font-weight: 900;
+  --netflix-bg-color: #F7F7F3;
+  --netflix-copy-color: #E50914;
+  --netflix-font-family: Gotham, sans-serif;
+
+  /* Dna application */
+  --font-weight: var(--netflix-font-weight);
+  --font-family: var(--netflix-font-family);
+  --bg-color: var(--netflix-bg-color);
+  --main-color: var(--netflix-copy-color);
+
+}
+
+.netflix h1,h2,h3,h4,h5,h6{
+  text-transform: uppercase;
+  letter-spacing: -1px;
+  color: var(--main-color)
+}
+
+
+.apple{
+  /* Brand Dna */
+  --apple-font-weight: 100;
+  --apple-background-color: white;
+  --apple-copy-color: #333333;
+  --apple-blue: #0070c9;
+  --apple-font-family: 'SF Pro Display', 'SF Pro Icons', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+
+  /* Dna application */
+  --font-family: var(--apple-font-family);
+  --bg-color: var(--apple-background-color);
+  --copy-color: var(--apple-copy-color);
+  --main-color: var(--apple-blue);
+  --line-height: 1.52947;
+  --font-size: 17px;
+}
+
+
+.apple h1,h2,h3,h4,h5,h6{
+  letter-spacing: 2px;
+  font-weight: var(--font-weight--light);
+}
+
+
+.ld {
+  /* Brand Dna */
+  --ld-dark: #505050;
+  --ld-really-dark: #3B3B3B;
+  --ld-light: #F9F9F9;
+  --ld-red: #8C2B44;
+  --ld-red--light: #9C465B;
+  --ld-yellow: #F5EB5E;
+  --ld-blue--light: #5E78D1;
+  --ld-blue: rgb(67,97,218);
+  --ld-green--light: #A3F6E0;
+  --ld-green: #20E8B4;
+  --ld-space: 1em;
+  --ld-border-radius: 3px;
+  --ld-font-family: "Branding", sans-serif;
+
+  --font-family: var(--ld-font-family);
+
+  --font-size: 16px;
+  --font-size--small: 16px;
+  --font-size--big: 26px;
+
+
+  --light: var(--ld-light);
+  --dark: var(--ld-dark);
+
+  --bg-color: var(--ld-light);
+  --copy-color: var(--ld-dark);
+
+  --main-color: var(--ld-blue);
+  --accent-color: var(--ld-green);
+
+  --border-color: var(--ld-really-dark);
+  --border-radius: var(--ld-border-radius);
+  --border-width: var(--ld-border-radius);
+
+  --outer-x: var(--ld-space);
+  --outer-y: var(--ld-space);
+  --inner-x: var(--ld-space);
+  --inner-y: var(--ld-space);
+}
+
+.hero{
+  background: var(--main-color);
+  color: var(--bg-color);
+}
+
+.material{
+  --font-family: "Roboto", "Noto", sans-serif;
+  --copy-color: #424242;
+  --bg-color: #F5F5F5;
+  --font-size: 13px;
+  --line-height: 1,84;
+  --main-color: #9C27B0;
+
+}

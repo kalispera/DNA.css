@@ -1,0 +1,32 @@
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link rel="stylesheet" href="demo.css">
+<link rel="stylesheet" href="dna.css">
+<link rel="stylesheet" href="dna-reset.css">
+<link rel="stylesheet" href="brands.css">
+
+<body class="">
+  <div class="content">
+
+  <h1>Dna Design</h1>
+  <p>Dna Design is a approach how to structure variable files.</p>
+  <p>We're heading into a direction where our code reflects the single source of truth for our Design.
+  The identity of a Brand, Company or Person is stored in a single source of truth file which is the dna of your brand.
+
+  If you decide to change that dna, the website will adapt.</p>
+  <a href="https://www.github.com/lassediercks/dna-design" class="button">Go to Github Repository</a>
+  </div>
+
+
+  <script type="text/javascript">
+  const classes = ['apple','netflix','ld','mybrand','coke', 'material']
+  const bodyEl = document.getElementsByTagName('body')[0];
+ let i = 0;
+  setInterval(() => {
+    bodyEl.className = "";
+    bodyEl.classList.add(classes[i]);
+    console.log('added', classes[i]);
+    i === classes.length ? i = 0 : i++;
+  }, 5000);
+  </script>
+</body>
