@@ -1,19 +1,19 @@
-# Dna Design
-When our components are atomic, our idendity is the Dna.
+# DNA Design
+When our components are atomic, our identity is the DNA.
 
-Dna Design is a approach how to structure variable files.
+DNA Design is a approach how to structure variable files.
 
 ### Why
 
-We're heading into a direction where our code reflects the single source of truth for our Design.
-The identity of a Brand, Company or Person is stored in a single source of truth file which is the dna of your brand.
+We're heading into a direction where our code reflects the single source of truth for our design.
+The identity of a brand, company or person is stored in a single source of truth file which is the DNA of your brand.
 
-If you decide to change that dna, the website will adapt.
+If you decide to change the DNA - the website will adapt.
 
 
 ### How
 
-The most significant aspects of a dna are colors, your font-family and spacings.
+The most significant aspect of a DNA are colors, your font-family and spacings.
 
 
 ```css
@@ -25,7 +25,7 @@ The most significant aspects of a dna are colors, your font-family and spacings.
 --base: 4px;
 ```
 
-Dna design starts to shine because these first variables get applied on the next level
+DNA design starts to shine because these first variables get applied on the next level
 
 ```css
 
@@ -35,16 +35,16 @@ Dna design starts to shine because these first variables get applied on the next
 
 ```
 
-This repo comes with a dna reset that can be seen as a usual css reset. Compared to other css resets it's assumes you have dna file in places and resets html to your dna.
+This repo comes with a dna reset that can be seen as a usual CSS reset. Compared to other CSS resets it assumes you have a DNA file in places and resets the html to your DNA.
 
 [look at the dna reset](./dna-reset.css)
 
 
 ### Where to start
 
-When you want to build your website on top of a design dna, it's important to understand that the idea is that you don't define new dna aspect somewhere else.
+When you want to build your website on top of a design DNA, it's important to understand that the point is to not define new DNA aspects somewhere else.
 
-For a quick start, just download the [dna.css](./dna.css) and [dna-reset.css](./dna-reset.css) and link them in your head.
+For a quick start just download the [dna.css](./dna.css) and [dna-reset.css](./dna-reset.css) and link them inside your head-tag.
 
 
 ```html
@@ -52,8 +52,7 @@ For a quick start, just download the [dna.css](./dna.css) and [dna-reset.css](./
 <link rel="stylesheet" href="dna.css">
 ```
 
-After that, create your personal dna file and position them below them.
-
+Next create your personal dna file and link them below.
 
 ```html
 <link rel="stylesheet" href="dna-reset.css">
@@ -62,9 +61,9 @@ After that, create your personal dna file and position them below them.
 ```
 
 
-After that, you're ready to head straight into your website creation.
+After that you're ready to head straight into your website creation.
 
-A DNA based button for example could look like this:
+For example a DNA-based button could look like this:
 
 ```css
 
@@ -87,7 +86,7 @@ A DNA based button for example could look like this:
 }
 ```
 
-And a Hero area could look like this:
+And a hero area could look like this:
 
 ```css
 
@@ -96,4 +95,4 @@ And a Hero area could look like this:
   color: var(--light);
 }
 ```
-As you have the knowledge about your main color, your have to decide if the color in the hero area is light or dark.
+Because you have the knowledge about your main color, you have to decide if the color in the hero area is light or dark.
