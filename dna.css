@@ -1,27 +1,25 @@
-/* Dna File */
+/* Example Dna Css File */
 
-:root{
-  /* Colors */
+:root {
+  /* Color */
   --dark: black;
   --light: white;
-  --main-color: #00493F;
-  
-  --placeholder-color: grey;
+  --main-color: #00493f;
 
   --info-color: blue;
   --success-color: green;
   --error-color: red;
+
+  --placeholder-color: grey;
 
   --bg-color: var(--light);
   --copy-color: var(--dark);
 
   --focus-color: var(--info-color);
 
-
+  /* Font */
   --font-family: sans-serif;
 
-
-  /* Fonts */
   --font-size--XS: 12px;
   --font-size--S: 14px;
   --font-size: 20px;
@@ -36,37 +34,35 @@
   --text-decoration: underline;
   --opacity: 0.5;
 
-
-
+  /* Borders */
   --border-color: grey;
   --border-radius: 3px;
   --border-width: 2px;
 
-  --shadow: 0px 0px 1px 0px rgba(0,0,0,0.14), 0px 3px 5px 0px rgba(0,0,0,0.23), 0px 5px 9px 4px rgba(0,0,0,0.09);
-  --shadow--S: 0px 0px 1px 0px rgba(0,0,0,0.08), 0px 2px 4px 0px rgba(0,0,0,0.15), 0px 2px 4px 2px rgba(0,0,0,0.04);
+  /* Graphic effects */
+  --shadow: 0px 0px 1px 0px rgba(0, 0, 0, 0.14),
+    0px 3px 5px 0px rgba(0, 0, 0, 0.23), 0px 5px 9px 4px rgba(0, 0, 0, 0.09);
+  --shadow--S: 0px 0px 1px 0px rgba(0, 0, 0, 0.08),
+    0px 2px 4px 0px rgba(0, 0, 0, 0.15), 0px 2px 4px 2px rgba(0, 0, 0, 0.04);
+  --gradient: linear-gradient(rgba(255, 255, 255, 0.08), rgba(0, 0, 0, 0.08));
+  --blur: 8px;
 
-
-
+  /* Animation */
   --fast: 180ms;
   --slow: 350ms;
 
-  --gradient: linear-gradient(rgba(255,255,255,.08), rgba(0,0,0,.08));
-
-  --blur: 8px;
-
+  /* Spacings */
   --base: 4px;
   --negative-base: -4px;
-
   --content-width: calc(var(--base)*175);
-
   --size--XS: calc(var(--base)*5);
   --size--S: calc(var(--base)*6);
   --size--M: calc(var(--base)*10);
   --size--L: calc(var(--base)*16);
   --size--XL: calc(var(--base)*24);
 
-  --outer-x--XS: calc(var(--base)/4);;
-  --outer-x--S: calc(var(--base)/2);;
+  --outer-x--XS: calc(var(--base)/4);
+  --outer-x--S: calc(var(--base)/2);
   --outer-x: var(--base);
   --outer-x--L: calc(var(--base)*4);
   --outer-x--XL: calc(var(--base)*10);
@@ -88,6 +84,4 @@
   --inner-y: calc(var(--base)*2);
   --inner-y--L: calc(var(--base)*4);
   --inner-y--XL: calc(var(--base)*6);
-
-
 }
