@@ -1,0 +1,19 @@
+{
+  "name": "dna.css",
+  "version": "0.1.0",
+  "description": "A css idea for the component age ",
+  "main": "dna.css",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lassediercks/DNA.css.git"
+  },
+  "author": "@lassediercks",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lassediercks/DNA.css/issues"
+  },
+  "homepage": "https://github.com/lassediercks/DNA.css#readme"
+}
