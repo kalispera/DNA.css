@@ -8,16 +8,19 @@
     "semantic-release":
       "semantic-release pre && npm publish && semantic-release post"
   },
+  "release": {
+    "verifyConditions": "condition-circle"
+  },
   "repository": {
     "type": "git",
-    "url": "https://github.com/lassediercks/DNA.css.git"
+    "url": "https://github.com/kalispera/DNA.css.git"
   },
   "author": "@lassediercks",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/lassediercks/DNA.css/issues"
+    "url": "https://github.com/kalispera/DNA.css/issues"
   },
-  "homepage": "https://github.com/lassediercks/DNA.css#readme",
+  "homepage": "https://github.com/kalispera/DNA.css#readme",
   "devDependencies": {
     "condition-circle": "^1.5.0",
     "semantic-release": "^8.2.0"
