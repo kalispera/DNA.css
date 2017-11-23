@@ -15,4 +15,7 @@ npm install @kalispera/dna.css
 yarn add @kalispera/dna.css
 ```
 
-##
+Or lint the rest of your project to prevent using something else than the
+dns.css
+
+https://github.com/kalispera/stylelint-config-dnacss
